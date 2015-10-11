@@ -1,0 +1,503 @@
+Last login: Mon Oct  5 08:24:22 on ttys001
+Hype:~ Lucas$ ssh stri-michael@172.16.0.4 -p 2222
+stri-michael@172.16.0.4's password: 
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Mon Oct  5 08:39:55 2015 from 172.16.97.30
+stri-michael@Cooper:~$ 
+stri-michael@Cooper:~$ 
+stri-michael@Cooper:~$ ip addr ls
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default 
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,SLAVE,UP,LOWER_UP> mtu 9000 qdisc mq master bond0 state UP group default qlen 10000
+    link/ether b8:ca:3a:67:9e:9c brd ff:ff:ff:ff:ff:ff
+3: eth1: <BROADCAST,MULTICAST,SLAVE,UP,LOWER_UP> mtu 9000 qdisc mq master bond0 state UP group default qlen 10000
+    link/ether b8:ca:3a:67:9e:9c brd ff:ff:ff:ff:ff:ff
+4: eth2: <BROADCAST,MULTICAST,SLAVE,UP,LOWER_UP> mtu 9000 qdisc mq master bond0 state UP group default qlen 10000
+    link/ether b8:ca:3a:67:9e:9c brd ff:ff:ff:ff:ff:ff
+5: eth3: <BROADCAST,MULTICAST,SLAVE,UP,LOWER_UP> mtu 9000 qdisc mq master bond0 state UP group default qlen 10000
+    link/ether b8:ca:3a:67:9e:9c brd ff:ff:ff:ff:ff:ff
+6: eth4: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc mq master ovs-system state UP group default qlen 10000
+    link/ether a0:36:9f:2d:fa:c0 brd ff:ff:ff:ff:ff:ff
+    inet6 fe80::a236:9fff:fe2d:fac0/64 scope link 
+       valid_lft forever preferred_lft forever
+7: eth5: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc mq master ovs-system state UP group default qlen 10000
+    link/ether a0:36:9f:2d:fa:c1 brd ff:ff:ff:ff:ff:ff
+    inet6 fe80::a236:9fff:fe2d:fac1/64 scope link 
+       valid_lft forever preferred_lft forever
+8: eth6: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc mq master ovs-system state UP group default qlen 10000
+    link/ether a0:36:9f:2d:fa:c2 brd ff:ff:ff:ff:ff:ff
+    inet6 fe80::a236:9fff:fe2d:fac2/64 scope link 
+       valid_lft forever preferred_lft forever
+9: eth7: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc mq master ovs-system state UP group default qlen 10000
+    link/ether a0:36:9f:2d:fa:c3 brd ff:ff:ff:ff:ff:ff
+    inet6 fe80::a236:9fff:fe2d:fac3/64 scope link 
+       valid_lft forever preferred_lft forever
+10: bond0@NONE: <BROADCAST,MULTICAST,MASTER,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default qlen 10000
+    link/ether b8:ca:3a:67:9e:9c brd ff:ff:ff:ff:ff:ff
+    inet 130.120.84.76/22 brd 130.120.87.255 scope global bond0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e9c/64 scope link 
+       valid_lft forever preferred_lft forever
+11: bond0.1@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default qlen 10000
+    link/ether b8:ca:3a:67:9e:01 brd ff:ff:ff:ff:ff:ff
+    inet 172.16.0.4/20 brd 172.16.15.255 scope global bond0.1
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:feb2:1::4/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e01/64 scope link 
+       valid_lft forever preferred_lft forever
+12: bond0.4@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default qlen 10000
+    link/ether b8:ca:3a:67:9e:04 brd ff:ff:ff:ff:ff:ff
+    inet 172.16.16.1/20 brd 172.16.31.255 scope global bond0.4
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e04/64 scope link 
+       valid_lft forever preferred_lft forever
+13: bond0.5@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether ba:ad:ca:fe:64:04 brd ff:ff:ff:ff:ff:ff
+    inet 198.51.100.4/29 brd 198.51.100.7 scope global bond0.5
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:fed4:5::4/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:feb2:5::4/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::b8ad:caff:fefe:6404/64 scope link 
+       valid_lft forever preferred_lft forever
+14: bond0.6@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether ba:ad:ca:fe:64:2c brd ff:ff:ff:ff:ff:ff
+    inet 198.51.100.44/29 brd 198.51.100.47 scope global bond0.6
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:fed4:6::4/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:feb2:6::4/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::b8ad:caff:fefe:642c/64 scope link 
+       valid_lft forever preferred_lft forever
+15: bond0.100@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:64 brd ff:ff:ff:ff:ff:ff
+    inet 172.17.0.1/22 brd 172.17.3.255 scope global bond0.100
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:feb2:64::1/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e64/64 scope link 
+       valid_lft forever preferred_lft forever
+16: bond0.101@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:65 brd ff:ff:ff:ff:ff:ff
+    inet 172.18.4.1/22 brd 172.18.7.255 scope global bond0.101
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:feb2:65::1/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e65/64 scope link 
+       valid_lft forever preferred_lft forever
+17: bond0.102@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:66 brd ff:ff:ff:ff:ff:ff
+    inet 10.3.2.1/23 brd 10.3.3.255 scope global bond0.102
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:feb2:66::1/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e66/64 scope link 
+       valid_lft forever preferred_lft forever
+18: bond0.103@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:67 brd ff:ff:ff:ff:ff:ff
+    inet 10.4.4.1/23 brd 10.4.5.255 scope global bond0.103
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:feb2:67::1/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e67/64 scope link 
+       valid_lft forever preferred_lft forever
+19: bond0.104@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:68 brd ff:ff:ff:ff:ff:ff
+    inet 10.5.6.1/23 brd 10.5.7.255 scope global bond0.104
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e68/64 scope link 
+       valid_lft forever preferred_lft forever
+20: bond0.105@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:69 brd ff:ff:ff:ff:ff:ff
+    inet 10.6.8.1/23 brd 10.6.9.255 scope global bond0.105
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e69/64 scope link 
+       valid_lft forever preferred_lft forever
+21: bond0.106@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:6a brd ff:ff:ff:ff:ff:ff
+    inet 10.7.10.1/23 brd 10.7.11.255 scope global bond0.106
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:feb2:6a::1/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e6a/64 scope link 
+       valid_lft forever preferred_lft forever
+22: bond0.107@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:6b brd ff:ff:ff:ff:ff:ff
+    inet 192.168.107.1/25 brd 192.168.107.127 scope global bond0.107
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:feb2:6b::1/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e6b/64 scope link 
+       valid_lft forever preferred_lft forever
+23: bond0.108@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:6c brd ff:ff:ff:ff:ff:ff
+    inet 192.168.108.129/25 brd 192.168.108.255 scope global bond0.108
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:feb2:6c::1/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e6c/64 scope link 
+       valid_lft forever preferred_lft forever
+24: bond0.109@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:6d brd ff:ff:ff:ff:ff:ff
+    inet 192.168.109.1/25 brd 192.168.109.127 scope global bond0.109
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e6d/64 scope link 
+       valid_lft forever preferred_lft forever
+25: bond0.110@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:6e brd ff:ff:ff:ff:ff:ff
+    inet 192.168.110.129/25 brd 192.168.110.255 scope global bond0.110
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e6e/64 scope link 
+       valid_lft forever preferred_lft forever
+26: bond0.111@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:6f brd ff:ff:ff:ff:ff:ff
+    inet 192.168.111.1/25 brd 192.168.111.127 scope global bond0.111
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:feb2:6f::1/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e6f/64 scope link 
+       valid_lft forever preferred_lft forever
+27: bond0.112@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:70 brd ff:ff:ff:ff:ff:ff
+    inet 172.19.112.1/26 brd 172.19.112.63 scope global bond0.112
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:feb2:70::1/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e70/64 scope link 
+       valid_lft forever preferred_lft forever
+28: bond0.113@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:71 brd ff:ff:ff:ff:ff:ff
+    inet 172.19.113.65/26 brd 172.19.113.127 scope global bond0.113
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:feb2:71::1/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e71/64 scope link 
+       valid_lft forever preferred_lft forever
+29: bond0.114@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:72 brd ff:ff:ff:ff:ff:ff
+    inet 172.19.114.129/26 brd 172.19.114.191 scope global bond0.114
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e72/64 scope link 
+       valid_lft forever preferred_lft forever
+30: bond0.115@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:73 brd ff:ff:ff:ff:ff:ff
+    inet 172.19.115.193/26 brd 172.19.115.255 scope global bond0.115
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e73/64 scope link 
+       valid_lft forever preferred_lft forever
+31: bond0.116@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:74 brd ff:ff:ff:ff:ff:ff
+    inet 172.19.116.1/26 brd 172.19.116.63 scope global bond0.116
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:feb2:74::1/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e74/64 scope link 
+       valid_lft forever preferred_lft forever
+32: bond0.117@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:75 brd ff:ff:ff:ff:ff:ff
+    inet 10.0.117.1/27 brd 10.0.117.31 scope global bond0.117
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:feb2:75::1/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e75/64 scope link 
+       valid_lft forever preferred_lft forever
+33: bond0.118@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:76 brd ff:ff:ff:ff:ff:ff
+    inet 10.0.118.33/27 brd 10.0.118.63 scope global bond0.118
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:feb2:76::1/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e76/64 scope link 
+       valid_lft forever preferred_lft forever
+34: bond0.119@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:77 brd ff:ff:ff:ff:ff:ff
+    inet 10.0.119.65/27 brd 10.0.119.95 scope global bond0.119
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e77/64 scope link 
+       valid_lft forever preferred_lft forever
+35: bond0.120@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:78 brd ff:ff:ff:ff:ff:ff
+    inet 10.0.120.97/27 brd 10.0.120.127 scope global bond0.120
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e78/64 scope link 
+       valid_lft forever preferred_lft forever
+36: bond0.121@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:79 brd ff:ff:ff:ff:ff:ff
+    inet 10.0.121.129/27 brd 10.0.121.159 scope global bond0.121
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:feb2:79::1/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e79/64 scope link 
+       valid_lft forever preferred_lft forever
+37: bond0.122@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:7a brd ff:ff:ff:ff:ff:ff
+    inet 192.168.122.1/28 brd 192.168.122.15 scope global bond0.122
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:feb2:7a::1/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e7a/64 scope link 
+       valid_lft forever preferred_lft forever
+38: bond0.123@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:7b brd ff:ff:ff:ff:ff:ff
+    inet 192.168.123.17/28 brd 192.168.123.31 scope global bond0.123
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:feb2:7b::1/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e7b/64 scope link 
+       valid_lft forever preferred_lft forever
+39: bond0.124@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:7c brd ff:ff:ff:ff:ff:ff
+    inet 192.168.124.33/28 brd 192.168.124.47 scope global bond0.124
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e7c/64 scope link 
+       valid_lft forever preferred_lft forever
+40: bond0.125@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:7d brd ff:ff:ff:ff:ff:ff
+    inet 192.168.125.49/28 brd 192.168.125.63 scope global bond0.125
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e7d/64 scope link 
+       valid_lft forever preferred_lft forever
+41: bond0.126@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:7e brd ff:ff:ff:ff:ff:ff
+    inet 192.168.126.65/28 brd 192.168.126.79 scope global bond0.126
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:feb2:7e::1/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e7e/64 scope link 
+       valid_lft forever preferred_lft forever
+42: bond0.127@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:7f brd ff:ff:ff:ff:ff:ff
+    inet 172.20.127.1/29 brd 172.20.127.7 scope global bond0.127
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:feb2:7f::1/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e7f/64 scope link 
+       valid_lft forever preferred_lft forever
+43: bond0.128@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:80 brd ff:ff:ff:ff:ff:ff
+    inet 172.20.128.9/29 brd 172.20.128.15 scope global bond0.128
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:feb2:80::1/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e80/64 scope link 
+       valid_lft forever preferred_lft forever
+44: bond0.129@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:81 brd ff:ff:ff:ff:ff:ff
+    inet 172.20.129.17/29 brd 172.20.129.23 scope global bond0.129
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e81/64 scope link 
+       valid_lft forever preferred_lft forever
+45: bond0.130@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:82 brd ff:ff:ff:ff:ff:ff
+    inet 172.20.130.25/29 brd 172.20.130.31 scope global bond0.130
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e82/64 scope link 
+       valid_lft forever preferred_lft forever
+46: bond0.131@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:83 brd ff:ff:ff:ff:ff:ff
+    inet 172.20.131.33/29 brd 172.20.131.39 scope global bond0.131
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:feb2:83::1/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e83/64 scope link 
+       valid_lft forever preferred_lft forever
+47: bond0.132@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:84 brd ff:ff:ff:ff:ff:ff
+    inet 172.24.132.17/28 brd 172.24.132.31 scope global bond0.132
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:feb2:84::1/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e84/64 scope link 
+       valid_lft forever preferred_lft forever
+48: bond0.133@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:85 brd ff:ff:ff:ff:ff:ff
+    inet 172.24.133.33/28 brd 172.24.133.47 scope global bond0.133
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:feb2:85::1/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e85/64 scope link 
+       valid_lft forever preferred_lft forever
+49: bond0.134@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:86 brd ff:ff:ff:ff:ff:ff
+    inet 172.20.134.49/28 brd 172.20.134.63 scope global bond0.134
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e86/64 scope link 
+       valid_lft forever preferred_lft forever
+50: bond0.135@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:87 brd ff:ff:ff:ff:ff:ff
+    inet 172.20.135.65/28 brd 172.20.135.79 scope global bond0.135
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e87/64 scope link 
+       valid_lft forever preferred_lft forever
+51: bond0.136@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:88 brd ff:ff:ff:ff:ff:ff
+    inet 172.20.136.81/28 brd 172.20.136.95 scope global bond0.136
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:feb2:88::1/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e88/64 scope link 
+       valid_lft forever preferred_lft forever
+52: bond0.137@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:89 brd ff:ff:ff:ff:ff:ff
+    inet 10.137.0.1/27 brd 10.137.0.31 scope global bond0.137
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:feb2:89::1/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e89/64 scope link 
+       valid_lft forever preferred_lft forever
+53: bond0.138@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:8a brd ff:ff:ff:ff:ff:ff
+    inet 10.138.0.33/27 brd 10.138.0.63 scope global bond0.138
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:feb2:8a::1/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e8a/64 scope link 
+       valid_lft forever preferred_lft forever
+54: bond0.139@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:8b brd ff:ff:ff:ff:ff:ff
+    inet 10.139.0.65/27 brd 10.139.0.95 scope global bond0.139
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e8b/64 scope link 
+       valid_lft forever preferred_lft forever
+55: bond0.140@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:8c brd ff:ff:ff:ff:ff:ff
+    inet 10.140.0.97/27 brd 10.140.0.127 scope global bond0.140
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e8c/64 scope link 
+       valid_lft forever preferred_lft forever
+56: bond0.141@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:8d brd ff:ff:ff:ff:ff:ff
+    inet 10.141.0.129/27 brd 10.141.0.159 scope global bond0.141
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:feb2:8d::1/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e8d/64 scope link 
+       valid_lft forever preferred_lft forever
+57: bond0.142@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:8e brd ff:ff:ff:ff:ff:ff
+    inet 192.168.142.1/26 brd 192.168.142.63 scope global bond0.142
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:feb2:8e::1/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e8e/64 scope link 
+       valid_lft forever preferred_lft forever
+58: bond0.143@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:8f brd ff:ff:ff:ff:ff:ff
+    inet 192.168.143.65/26 brd 192.168.143.127 scope global bond0.143
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:feb2:8f::1/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e8f/64 scope link 
+       valid_lft forever preferred_lft forever
+59: bond0.144@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:90 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.144.129/26 brd 192.168.144.191 scope global bond0.144
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e90/64 scope link 
+       valid_lft forever preferred_lft forever
+60: bond0.145@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:91 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.145.193/26 brd 192.168.145.255 scope global bond0.145
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9e91/64 scope link 
+       valid_lft forever preferred_lft forever
+61: bond0.211@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:d3 brd ff:ff:ff:ff:ff:ff
+    inet 172.16.48.2/20 brd 172.16.63.255 scope global bond0.211
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9ed3/64 scope link 
+       valid_lft forever preferred_lft forever
+62: bond0.212@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default 
+    link/ether b8:ca:3a:67:9e:d4 brd ff:ff:ff:ff:ff:ff
+    inet 172.16.64.2/20 brd 172.16.79.255 scope global bond0.212
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9ed4/64 scope link 
+       valid_lft forever preferred_lft forever
+63: bond0.213@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default qlen 10000
+    link/ether b8:ca:3a:67:9e:d5 brd ff:ff:ff:ff:ff:ff
+    inet 172.16.80.1/20 brd 172.16.95.255 scope global bond0.213
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9ed5/64 scope link 
+       valid_lft forever preferred_lft forever
+64: bond0.214@bond0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UP group default qlen 10000
+    link/ether b8:ca:3a:67:9e:d6 brd ff:ff:ff:ff:ff:ff
+    inet 172.16.96.2/24 brd 172.16.96.255 scope global bond0.214
+       valid_lft forever preferred_lft forever
+    inet6 fe80::baca:3aff:fe67:9ed6/64 scope link 
+       valid_lft forever preferred_lft forever
+65: sit0@NONE: <NOARP> mtu 1480 qdisc noop state DOWN group default 
+    link/sit 0.0.0.0 brd 0.0.0.0
+66: sixxs@NONE: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1280 qdisc pfifo_fast state UNKNOWN group default qlen 500
+    link/none 
+    inet6 2a01:240:fe00:1ac::2/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::40:fe00:1ac:2/64 scope link 
+       valid_lft forever preferred_lft forever
+67: ovs-system@NONE: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default 
+    link/ether 82:b8:22:d7:e4:2f brd ff:ff:ff:ff:ff:ff
+68: ovs-cooper@NONE: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default 
+    link/ether a0:36:9f:2d:fa:c0 brd ff:ff:ff:ff:ff:ff
+69: bond1@NONE: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default 
+    link/ether 62:74:d7:17:06:37 brd ff:ff:ff:ff:ff:ff
+70: vlan2@NONE: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UNKNOWN group default qlen 10000
+    link/ether aa:11:c7:ea:f6:3f brd ff:ff:ff:ff:ff:ff
+    inet 192.0.2.1/27 brd 192.0.2.31 scope global vlan2
+       valid_lft forever preferred_lft forever
+    inet6 2a01:240:feb2:2::1/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::a811:c7ff:feea:f63f/64 scope link 
+       valid_lft forever preferred_lft forever
+71: br0@NONE: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default 
+    link/ether 2e:47:f5:57:55:41 brd ff:ff:ff:ff:ff:ff
+72: tap0@NONE: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast master ovs-system state UP group default qlen 500
+    link/ether 22:53:43:0f:fe:c5 brd ff:ff:ff:ff:ff:ff
+    inet6 fe80::2053:43ff:fe0f:fec5/64 scope link 
+       valid_lft forever preferred_lft forever
+73: tap1@NONE: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast master ovs-system state UP group default qlen 500
+    link/ether 9e:fb:3e:ab:ab:f1 brd ff:ff:ff:ff:ff:ff
+    inet6 fe80::9cfb:3eff:feab:abf1/64 scope link 
+       valid_lft forever preferred_lft forever
+74: tap2@NONE: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc pfifo_fast master ovs-system state LOWERLAYERDOWN group default qlen 500
+    link/ether 66:8c:46:d1:fe:07 brd ff:ff:ff:ff:ff:ff
+    inet6 fe80::648c:46ff:fed1:fe07/64 scope link 
+       valid_lft forever preferred_lft forever
+75: tap3@NONE: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc pfifo_fast master ovs-system state LOWERLAYERDOWN group default qlen 500
+    link/ether b2:ba:8b:7a:a7:f7 brd ff:ff:ff:ff:ff:ff
+    inet6 fe80::b0ba:8bff:fe7a:a7f7/64 scope link 
+       valid_lft forever preferred_lft forever
+77: red1@NONE: <BROADCAST,MULTICAST> mtu 1500 qdisc pfifo_fast state DOWN group default qlen 500
+    link/ether 5a:94:92:06:9d:ec brd ff:ff:ff:ff:ff:ff
+78: red2@NONE: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast master ovs-system state UP group default qlen 500
+    link/ether fe:ef:89:33:3b:35 brd ff:ff:ff:ff:ff:ff
+    inet6 fe80::fcef:89ff:fe33:3b35/64 scope link 
+       valid_lft forever preferred_lft forever
+79: red3@NONE: <BROADCAST,MULTICAST> mtu 1500 qdisc pfifo_fast state DOWN group default qlen 500
+    link/ether 46:65:57:dc:b4:4e brd ff:ff:ff:ff:ff:ff
+80: red4@NONE: <BROADCAST,MULTICAST> mtu 1500 qdisc pfifo_fast state DOWN group default qlen 500
+    link/ether 86:fa:57:c7:08:9c brd ff:ff:ff:ff:ff:ff
+81: red5@NONE: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast master ovs-system state UP group default qlen 500
+    link/ether fe:34:1c:16:e6:63 brd ff:ff:ff:ff:ff:ff
+    inet6 fe80::fc34:1cff:fe16:e663/64 scope link 
+       valid_lft forever preferred_lft forever
+82: red6@NONE: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast master ovs-system state UP group default qlen 500
+    link/ether c2:9e:67:93:18:e0 brd ff:ff:ff:ff:ff:ff
+    inet6 fe80::c09e:67ff:fe93:18e0/64 scope link 
+       valid_lft forever preferred_lft forever
+83: orange0@NONE: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast master ovs-system state UP group default qlen 500
+    link/ether 86:a2:2a:2d:b9:26 brd ff:ff:ff:ff:ff:ff
+    inet6 fe80::84a2:2aff:fe2d:b926/64 scope link 
+       valid_lft forever preferred_lft forever
+stri-michael@Cooper:~$ 

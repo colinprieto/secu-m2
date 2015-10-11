@@ -1,0 +1,603 @@
+stri-michael@Cooper:~$ netstat -a
+Connexions Internet actives (serveurs et établies)
+Proto Recv-Q Send-Q Adresse locale          Adresse distante        Etat
+tcp        0      0 localhost:5900          0.0.0.0:*               LISTEN
+tcp        0      0 localhost:ospfd         0.0.0.0:*               LISTEN
+tcp        0      0 0.0.0.0:2222            0.0.0.0:*               LISTEN
+tcp        0      0 0.0.0.0:47598           0.0.0.0:*               LISTEN
+tcp        0      0 cooper.fake.doma:domain 0.0.0.0:*               LISTEN
+tcp        0      0 cooper.lan-214.s:domain 0.0.0.0:*               LISTEN
+tcp        0      0 cooper.lan-213.s:domain 0.0.0.0:*               LISTEN
+tcp        0      0 172.16.64.2:domain      0.0.0.0:*               LISTEN
+tcp        0      0 cooper.lan-211.s:domain 0.0.0.0:*               LISTEN
+tcp        0      0 192.168.145.193:domain  0.0.0.0:*               LISTEN
+tcp        0      0 192.168.144.129:domain  0.0.0.0:*               LISTEN
+tcp        0      0 192.168.143.65:domain   0.0.0.0:*               LISTEN
+tcp        0      0 192.168.142.1:domain    0.0.0.0:*               LISTEN
+tcp        0      0 10.141.0.129:domain     0.0.0.0:*               LISTEN
+tcp        0      0 10.140.0.97:domain      0.0.0.0:*               LISTEN
+tcp        0      0 10.139.0.65:domain      0.0.0.0:*               LISTEN
+tcp        0      0 10.138.0.33:domain      0.0.0.0:*               LISTEN
+tcp        0      0 10.137.0.1:domain       0.0.0.0:*               LISTEN
+tcp        0      0 172.20.136.81:domain    0.0.0.0:*               LISTEN
+tcp        0      0 172.20.135.65:domain    0.0.0.0:*               LISTEN
+tcp        0      0 172.20.134.49:domain    0.0.0.0:*               LISTEN
+tcp        0      0 172.24.133.33:domain    0.0.0.0:*               LISTEN
+tcp        0      0 172.24.132.17:domain    0.0.0.0:*               LISTEN
+tcp        0      0 172.20.131.33:domain    0.0.0.0:*               LISTEN
+tcp        0      0 172.20.130.25:domain    0.0.0.0:*               LISTEN
+tcp        0      0 172.20.129.17:domain    0.0.0.0:*               LISTEN
+tcp        0      0 172.20.128.9:domain     0.0.0.0:*               LISTEN
+tcp        0      0 172.20.127.1:domain     0.0.0.0:*               LISTEN
+tcp        0      0 192.168.126.65:domain   0.0.0.0:*               LISTEN
+tcp        0      0 192.168.125.49:domain   0.0.0.0:*               LISTEN
+tcp        0      0 192.168.124.33:domain   0.0.0.0:*               LISTEN
+tcp        0      0 192.168.123.17:domain   0.0.0.0:*               LISTEN
+tcp        0      0 192.168.122.1:domain    0.0.0.0:*               LISTEN
+tcp        0      0 10.0.121.129:domain     0.0.0.0:*               LISTEN
+tcp        0      0 10.0.120.97:domain      0.0.0.0:*               LISTEN
+tcp        0      0 10.0.119.65:domain      0.0.0.0:*               LISTEN
+tcp        0      0 10.0.118.33:domain      0.0.0.0:*               LISTEN
+tcp        0      0 10.0.117.1:domain       0.0.0.0:*               LISTEN
+tcp        0      0 172.19.116.1:domain     0.0.0.0:*               LISTEN
+tcp        0      0 172.19.115.193:domain   0.0.0.0:*               LISTEN
+tcp        0      0 172.19.114.129:domain   0.0.0.0:*               LISTEN
+tcp        0      0 172.19.113.65:domain    0.0.0.0:*               LISTEN
+tcp        0      0 172.19.112.1:domain     0.0.0.0:*               LISTEN
+tcp        0      0 192.168.111.1:domain    0.0.0.0:*               LISTEN
+tcp        0      0 192.168.110.129:domain  0.0.0.0:*               LISTEN
+tcp        0      0 192.168.109.1:domain    0.0.0.0:*               LISTEN
+tcp        0      0 192.168.108.129:domain  0.0.0.0:*               LISTEN
+tcp        0      0 192.168.107.1:domain    0.0.0.0:*               LISTEN
+tcp        0      0 10.7.10.1:domain        0.0.0.0:*               LISTEN
+tcp        0      0 10.6.8.1:domain         0.0.0.0:*               LISTEN
+tcp        0      0 10.5.6.1:domain         0.0.0.0:*               LISTEN
+tcp        0      0 10.4.4.1:domain         0.0.0.0:*               LISTEN
+tcp        0      0 10.3.2.1:domain         0.0.0.0:*               LISTEN
+tcp        0      0 172.18.4.1:domain       0.0.0.0:*               LISTEN
+tcp        0      0 172.17.0.1:domain       0.0.0.0:*               LISTEN
+tcp        0      0 198.51.100.44:domain    0.0.0.0:*               LISTEN
+tcp        0      0 198.51.100.4:domain     0.0.0.0:*               LISTEN
+tcp        0      0 cooper.stri:domain      0.0.0.0:*               LISTEN
+tcp        0      0 cooper.infra.str:domain 0.0.0.0:*               LISTEN
+tcp        0      0 cooper.ups-tlse.:domain 0.0.0.0:*               LISTEN
+tcp        0      0 localhost:domain        0.0.0.0:*               LISTEN
+tcp        0      0 cooper.lan-213.str:8181 0.0.0.0:*               LISTEN
+tcp        0      0 0.0.0.0:ssh             0.0.0.0:*               LISTEN
+tcp        0      0 localhost:953           0.0.0.0:*               LISTEN
+tcp        0      0 0.0.0.0:6969            0.0.0.0:*               LISTEN
+tcp        0      0 localhost:smtp          0.0.0.0:*               LISTEN
+tcp        0      0 cooper.infra.stri:3551  0.0.0.0:*               LISTEN
+tcp        0      0 cooper.stri:647         0.0.0.0:*               LISTEN
+tcp        0      0 0.0.0.0:rsync           0.0.0.0:*               LISTEN
+tcp        0      0 localhost:zebra         0.0.0.0:*               LISTEN
+tcp        0      0 cooper.infra.stri:2222  172.16.48.73:51145      ESTABLISHED
+tcp        0      0 cooper.infra.stri:2222  172.16.97.30:56670      ESTABLISHED
+tcp        0      0 cooper.stri:647         casper.stri:36428       ESTABLISHED
+tcp        0      0 cooper.infra.stri:2222  172.16.97.26:59155      ESTABLISHED
+tcp        0      0 cooper.ups-tlse.fr:2222 130.120.210.228:61773   ESTABLISHED
+tcp        0      0 cooper.infra.stri:2222  172.16.97.30:56709      ESTABLISHED
+tcp6       0      0 localhost:5900          [::]:*                  LISTEN
+tcp6       0      0 localhost:5901          [::]:*                  LISTEN
+tcp6       0      0 localhost:5902          [::]:*                  LISTEN
+tcp6       0      0 [::]:2222               [::]:*                  LISTEN
+tcp6       0      0 [::]:http-alt           [::]:*                  LISTEN
+tcp6       0      0 localhost:5905          [::]:*                  LISTEN
+tcp6       0      0 localhost:5906          [::]:*                  LISTEN
+tcp6       0      0 [::]:domain             [::]:*                  LISTEN
+tcp6       0      0 [::]:ssh                [::]:*                  LISTEN
+tcp6       0      0 [::]:3128               [::]:*                  LISTEN
+tcp6       0      0 localhost:smtp          [::]:*                  LISTEN
+tcp6       0      0 [::]:rsync              [::]:*                  LISTEN
+udp        0      0 cooper.ups-tlse.f:36344 78.153.240.201:5072     ESTABLISHED
+udp        0      0 0.0.0.0:3780            0.0.0.0:*
+udp        0      0 0.0.0.0:mdns            0.0.0.0:*
+udp        0      0 0.0.0.0:57363           0.0.0.0:*
+udp        0      0 0.0.0.0:42862           0.0.0.0:*
+udp        0      0 cooper.infra.stri:44917 casper.infra.stri:9995  ESTABLISHED
+udp        0      0 0.0.0.0:49015           0.0.0.0:*
+udp        0      0 0.0.0.0:49098           0.0.0.0:*
+udp        0      0 cooper.fake.doma:domain 0.0.0.0:*
+udp        0      0 cooper.lan-214.s:domain 0.0.0.0:*
+udp        0      0 cooper.lan-213.s:domain 0.0.0.0:*
+udp        0      0 172.16.64.2:domain      0.0.0.0:*
+udp        0      0 cooper.lan-211.s:domain 0.0.0.0:*
+udp        0      0 192.168.145.193:domain  0.0.0.0:*
+udp        0      0 192.168.144.129:domain  0.0.0.0:*
+udp        0      0 192.168.143.65:domain   0.0.0.0:*
+udp        0      0 192.168.142.1:domain    0.0.0.0:*
+udp        0      0 10.141.0.129:domain     0.0.0.0:*
+udp        0      0 10.140.0.97:domain      0.0.0.0:*
+udp        0      0 10.139.0.65:domain      0.0.0.0:*
+udp        0      0 10.138.0.33:domain      0.0.0.0:*
+udp        0      0 10.137.0.1:domain       0.0.0.0:*
+udp        0      0 172.20.136.81:domain    0.0.0.0:*
+udp        0      0 172.20.135.65:domain    0.0.0.0:*
+udp        0      0 172.20.134.49:domain    0.0.0.0:*
+udp        0      0 172.24.133.33:domain    0.0.0.0:*
+udp        0      0 172.24.132.17:domain    0.0.0.0:*
+udp        0      0 172.20.131.33:domain    0.0.0.0:*
+udp        0      0 172.20.130.25:domain    0.0.0.0:*
+udp        0      0 172.20.129.17:domain    0.0.0.0:*
+udp        0      0 172.20.128.9:domain     0.0.0.0:*
+udp        0      0 172.20.127.1:domain     0.0.0.0:*
+udp        0      0 192.168.126.65:domain   0.0.0.0:*
+udp        0      0 192.168.125.49:domain   0.0.0.0:*
+udp        0      0 192.168.124.33:domain   0.0.0.0:*
+udp        0      0 192.168.123.17:domain   0.0.0.0:*
+udp        0      0 192.168.122.1:domain    0.0.0.0:*
+udp        0      0 10.0.121.129:domain     0.0.0.0:*
+udp        0      0 10.0.120.97:domain      0.0.0.0:*
+udp        0      0 10.0.119.65:domain      0.0.0.0:*
+udp        0      0 10.0.118.33:domain      0.0.0.0:*
+udp        0      0 10.0.117.1:domain       0.0.0.0:*
+udp        0      0 172.19.116.1:domain     0.0.0.0:*
+udp        0      0 172.19.115.193:domain   0.0.0.0:*
+udp        0      0 172.19.114.129:domain   0.0.0.0:*
+udp        0      0 172.19.113.65:domain    0.0.0.0:*
+udp        0      0 172.19.112.1:domain     0.0.0.0:*
+udp        0      0 192.168.111.1:domain    0.0.0.0:*
+udp        0      0 192.168.110.129:domain  0.0.0.0:*
+udp        0      0 192.168.109.1:domain    0.0.0.0:*
+udp        0      0 192.168.108.129:domain  0.0.0.0:*
+udp        0      0 192.168.107.1:domain    0.0.0.0:*
+udp        0      0 10.7.10.1:domain        0.0.0.0:*
+udp        0      0 10.6.8.1:domain         0.0.0.0:*
+udp        0      0 10.5.6.1:domain         0.0.0.0:*
+udp        0      0 10.4.4.1:domain         0.0.0.0:*
+udp        0      0 10.3.2.1:domain         0.0.0.0:*
+udp        0      0 172.18.4.1:domain       0.0.0.0:*
+udp        0      0 172.17.0.1:domain       0.0.0.0:*
+udp        0      0 198.51.100.44:domain    0.0.0.0:*
+udp        0      0 198.51.100.4:domain     0.0.0.0:*
+udp        0      0 cooper.stri:domain      0.0.0.0:*
+udp        0      0 cooper.infra.str:domain 0.0.0.0:*
+udp        0      0 cooper.ups-tlse.:domain 0.0.0.0:*
+udp        0      0 localhost:domain        0.0.0.0:*
+udp        0      0 0.0.0.0:bootps          0.0.0.0:*
+udp        0      0 0.0.0.0:tftp            0.0.0.0:*
+udp        0      0 cooper.fake.domain:ntp  0.0.0.0:*
+udp        0      0 cooper.lan-214.stri:ntp 0.0.0.0:*
+udp        0      0 cooper.lan-213.stri:ntp 0.0.0.0:*
+udp        0      0 172.16.64.2:ntp         0.0.0.0:*
+udp        0      0 cooper.lan-211.stri:ntp 0.0.0.0:*
+udp        0      0 192.168.145.193:ntp     0.0.0.0:*
+udp        0      0 192.168.144.129:ntp     0.0.0.0:*
+udp        0      0 192.168.143.65:ntp      0.0.0.0:*
+udp        0      0 192.168.142.1:ntp       0.0.0.0:*
+udp        0      0 10.141.0.129:ntp        0.0.0.0:*
+udp        0      0 10.140.0.97:ntp         0.0.0.0:*
+udp        0      0 10.139.0.65:ntp         0.0.0.0:*
+udp        0      0 10.138.0.33:ntp         0.0.0.0:*
+udp        0      0 10.137.0.1:ntp          0.0.0.0:*
+udp        0      0 172.20.136.81:ntp       0.0.0.0:*
+udp        0      0 172.20.135.65:ntp       0.0.0.0:*
+udp        0      0 172.20.134.49:ntp       0.0.0.0:*
+udp        0      0 172.24.133.33:ntp       0.0.0.0:*
+udp        0      0 172.24.132.17:ntp       0.0.0.0:*
+udp        0      0 172.20.131.33:ntp       0.0.0.0:*
+udp        0      0 172.20.130.25:ntp       0.0.0.0:*
+udp        0      0 172.20.129.17:ntp       0.0.0.0:*
+udp        0      0 172.20.128.9:ntp        0.0.0.0:*
+udp        0      0 172.20.127.1:ntp        0.0.0.0:*
+udp        0      0 192.168.126.65:ntp      0.0.0.0:*
+udp        0      0 192.168.125.49:ntp      0.0.0.0:*
+udp        0      0 192.168.124.33:ntp      0.0.0.0:*
+udp        0      0 192.168.123.17:ntp      0.0.0.0:*
+udp        0      0 192.168.122.1:ntp       0.0.0.0:*
+udp        0      0 10.0.121.129:ntp        0.0.0.0:*
+udp        0      0 10.0.120.97:ntp         0.0.0.0:*
+udp        0      0 10.0.119.65:ntp         0.0.0.0:*
+udp        0      0 10.0.118.33:ntp         0.0.0.0:*
+udp        0      0 10.0.117.1:ntp          0.0.0.0:*
+udp        0      0 172.19.116.1:ntp        0.0.0.0:*
+udp        0      0 172.19.115.193:ntp      0.0.0.0:*
+udp        0      0 172.19.114.129:ntp      0.0.0.0:*
+udp        0      0 172.19.113.65:ntp       0.0.0.0:*
+udp        0      0 172.19.112.1:ntp        0.0.0.0:*
+udp        0      0 192.168.111.1:ntp       0.0.0.0:*
+udp        0      0 192.168.110.129:ntp     0.0.0.0:*
+udp        0      0 192.168.109.1:ntp       0.0.0.0:*
+udp        0      0 192.168.108.129:ntp     0.0.0.0:*
+udp        0      0 192.168.107.1:ntp       0.0.0.0:*
+udp        0      0 10.7.10.1:ntp           0.0.0.0:*
+udp        0      0 10.6.8.1:ntp            0.0.0.0:*
+udp        0      0 10.5.6.1:ntp            0.0.0.0:*
+udp        0      0 10.4.4.1:ntp            0.0.0.0:*
+udp        0      0 10.3.2.1:ntp            0.0.0.0:*
+udp        0      0 172.18.4.1:ntp          0.0.0.0:*
+udp        0      0 172.17.0.1:ntp          0.0.0.0:*
+udp        0      0 198.51.100.44:ntp       0.0.0.0:*
+udp        0      0 198.51.100.4:ntp        0.0.0.0:*
+udp        0      0 cooper.stri:ntp         0.0.0.0:*
+udp        0      0 cooper.infra.stri:ntp   0.0.0.0:*
+udp        0      0 cooper.ups-tlse.fr:ntp  0.0.0.0:*
+udp        0      0 localhost:ntp           0.0.0.0:*
+udp        0      0 0.0.0.0:ntp             0.0.0.0:*
+udp        0      0 0.0.0.0:snmp            0.0.0.0:*
+udp        0      0 cooper.infra.stri:34338 casper.infra.stri:9995  ESTABLISHED
+udp        0      0 0.0.0.0:50885           0.0.0.0:*
+udp6       0      0 [::]:icpv2              [::]:*
+udp6       0      0 [::]:3401               [::]:*
+udp6       0      0 [::]:mdns               [::]:*
+udp6       0      0 [::]:41394              [::]:*
+udp6       0      0 localhost:57943         localhost:44094         ESTABLISHED
+udp6       0      0 localhost:44094         localhost:57943         ESTABLISHED
+udp6       0      0 [::]:domain             [::]:*
+udp6       0      0 fe80::84a2:2aff:fe2:ntp [::]:*
+udp6       0      0 fe80::c09e:67ff:fe9:ntp [::]:*
+udp6       0      0 fe80::fc34:1cff:fe1:ntp [::]:*
+udp6       0      0 fe80::fcef:89ff:fe3:ntp [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 fe80::a811:c7ff:fee:ntp [::]:*
+udp6       0      0 fe80::40:fe00:1ac:2:ntp [::]:*
+udp6       0      0 fe80::a236:9fff:fe2:ntp [::]:*
+udp6       0      0 cl-429.mrs-01.fr.si:ntp [::]:*
+udp6       0      0 fe80::b8ad:caff:fef:ntp [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 fe80::a236:9fff:fe2:ntp [::]:*
+udp6       0      0 fe80::a236:9fff:fe2:ntp [::]:*
+udp6       0      0 fe80::a236:9fff:fe2:ntp [::]:*
+udp6       0      0 fe80::baca:3aff:fe6:ntp [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 fe80::baca:3aff:fe6:ntp [::]:*
+udp6       0      0 fe80::baca:3aff:fe6:ntp [::]:*
+udp6       0      0 fe80::baca:3aff:fe6:ntp [::]:*
+udp6       0      0 fe80::baca:3aff:fe6:ntp [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 fe80::baca:3aff:fe6:ntp [::]:*
+udp6       0      0 fe80::baca:3aff:fe6:ntp [::]:*
+udp6       0      0 fe80::baca:3aff:fe6:ntp [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 fe80::baca:3aff:fe6:ntp [::]:*
+udp6       0      0 fe80::baca:3aff:fe6:ntp [::]:*
+udp6       0      0 fe80::baca:3aff:fe6:ntp [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 fe80::baca:3aff:fe6:ntp [::]:*
+udp6       0      0 fe80::baca:3aff:fe6:ntp [::]:*
+udp6       0      0 fe80::baca:3aff:fe6:ntp [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 fe80::baca:3aff:fe6:ntp [::]:*
+udp6       0      0 fe80::baca:3aff:fe6:ntp [::]:*
+udp6       0      0 fe80::baca:3aff:fe6:ntp [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 fe80::baca:3aff:fe6:ntp [::]:*
+udp6       0      0 fe80::baca:3aff:fe6:ntp [::]:*
+udp6       0      0 fe80::baca:3aff:fe6:ntp [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 fe80::baca:3aff:fe6:ntp [::]:*
+udp6       0      0 fe80::baca:3aff:fe6:ntp [::]:*
+udp6       0      0 fe80::baca:3aff:fe6:ntp [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 fe80::baca:3aff:fe6:ntp [::]:*
+udp6       0      0 fe80::baca:3aff:fe6:ntp [::]:*
+udp6       0      0 fe80::baca:3aff:fe6:ntp [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 fe80::baca:3aff:fe6:ntp [::]:*
+udp6       0      0 fe80::baca:3aff:fe6:ntp [::]:*
+udp6       0      0 localhost:ntp           [::]:*
+udp6       0      0 fe80::baca:3aff:fe6:ntp [::]:*
+udp6       0      0 fe80::b8ad:caff:fef:ntp [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 fe80::baca:3aff:fe6:ntp [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 Cooper.local:ntp        [::]:*
+udp6       0      0 [::]:ntp                [::]:*
+udp6       0      0 [::]:snmp               [::]:*
+udp6       0      0 [::]:35072              [::]:*
+raw        0      0 0.0.0.0:icmp            0.0.0.0:*               7
+raw        0      0 0.0.0.0:icmp            0.0.0.0:*               7
+raw        0      0 0.0.0.0:ospf            0.0.0.0:*               7
+raw6       0      0 [::]:ipv6-icmp          [::]:*                  7
+raw6       0      0 [::]:ipv6-icmp          [::]:*                  7
+raw6  213504      0 [::]:ipv6-icmp          [::]:*                  7
+Sockets du domaine UNIX actives(serveurs et établies)
+Proto RefCnt Flags       Type       State         I-Node   Chemin
+unix  2      [ ACC ]     STREAM     LISTENING     151921   /tmp/ssh-86LzOjXhHJeT/agent.10341
+unix  2      [ ACC ]     STREAM     LISTENING     19972    /var/run/quagga/zserv.api
+unix  2      [ ACC ]     STREAM     LISTENING     19975    /var/run/quagga/zebra.vty
+unix  2      [ ACC ]     STREAM     LISTENING     112581   /tmp/gpg-eyVSRy/S.gpg-agent
+unix  2      [ ACC ]     STREAM     LISTENING     30480    /var/run/openvswitch/ovs-cooper.mgmt
+unix  2      [ ACC ]     STREAM     LISTENING     30482    /var/run/openvswitch/ovs-cooper.snoop
+unix  2      [ ACC ]     STREAM     LISTENING     30484    /var/run/openvswitch/br0.mgmt
+unix  2      [ ACC ]     STREAM     LISTENING     30486    /var/run/openvswitch/br0.snoop
+unix  2      [ ]         DGRAM                    34855    /run/systemd/notify
+unix  2      [ ACC ]     STREAM     LISTENING     1720816428 /var/run/conntrackd.sock
+unix  2      [ ACC ]     STREAM     LISTENING     47407    /var/run/openvswitch/ovs-vswitchd.9874.ctl
+unix  2      [ ACC ]     STREAM     LISTENING     47352    /var/agentx/master
+unix  2      [ ]         DGRAM                    1736443955 /run/user/1005/systemd/notify
+unix  2      [ ACC ]     STREAM     LISTENING     14132    /var/run/quagga/ospfd.vty
+unix  2      [ ACC ]     STREAM     LISTENING     1736443957 /run/user/1005/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     34870    /run/systemd/journal/stdout
+unix  9      [ ]         DGRAM                    34873    /run/systemd/journal/socket
+unix  2      [ ACC ]     STREAM     LISTENING     734915657 /var/run/softflowd.ctl
+unix  2      [ ACC ]     STREAM     LISTENING     18224    public/cleanup
+unix  2      [ ACC ]     STREAM     LISTENING     18229    private/tlsmgr
+unix  2      [ ACC ]     STREAM     LISTENING     48453    private/rewrite
+unix  2      [ ACC ]     STREAM     LISTENING     48456    private/bounce
+unix  2      [ ACC ]     STREAM     LISTENING     48459    private/defer
+unix  2      [ ACC ]     STREAM     LISTENING     48462    private/trace
+unix  2      [ ACC ]     STREAM     LISTENING     48465    private/verify
+unix  2      [ ACC ]     STREAM     LISTENING     32336    /var/run/dbus/system_bus_socket
+unix  2      [ ACC ]     STREAM     LISTENING     48468    public/flush
+unix  2      [ ACC ]     STREAM     LISTENING     48471    private/proxymap
+unix  2      [ ACC ]     STREAM     LISTENING     32339    /var/run/avahi-daemon/socket
+unix  2      [ ACC ]     STREAM     LISTENING     48474    private/proxywrite
+unix  2      [ ACC ]     STREAM     LISTENING     48477    private/smtp
+unix  2      [ ACC ]     STREAM     LISTENING     48480    private/relay
+unix  2      [ ACC ]     STREAM     LISTENING     48483    public/showq
+unix  2      [ ACC ]     STREAM     LISTENING     48486    private/error
+unix  2      [ ACC ]     STREAM     LISTENING     48489    private/retry
+unix  2      [ ACC ]     STREAM     LISTENING     48492    private/discard
+unix  2      [ ACC ]     STREAM     LISTENING     48495    private/local
+unix  2      [ ACC ]     STREAM     LISTENING     48498    private/virtual
+unix  2      [ ACC ]     STREAM     LISTENING     42331    /run/uuidd/request
+unix  2      [ ACC ]     STREAM     LISTENING     48501    private/lmtp
+unix  2      [ ]         DGRAM                    1758309470 /run/user/1007/systemd/notify
+unix  2      [ ACC ]     STREAM     LISTENING     48504    private/anvil
+unix  2      [ ACC ]     STREAM     LISTENING     48507    private/scache
+unix  2      [ ACC ]     STREAM     LISTENING     1758309472 /run/user/1007/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     48510    private/maildrop
+unix  2      [ ACC ]     STREAM     LISTENING     48513    private/uucp
+unix  2      [ ]         DGRAM                    1540485730 /run/user/1006/systemd/notify
+unix  2      [ ACC ]     STREAM     LISTENING     48516    private/ifmail
+unix  2      [ ACC ]     STREAM     LISTENING     48519    private/bsmtp
+unix  2      [ ACC ]     STREAM     LISTENING     1540485732 /run/user/1006/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     48522    private/scalemail-backend
+unix  2      [ ACC ]     STREAM     LISTENING     48525    private/mailman
+unix  2      [ ACC ]     STREAM     LISTENING     35943    /run/systemd/fsck.progress
+unix  36     [ ]         DGRAM                    35945    /run/systemd/journal/dev-log
+unix  2      [ ACC ]     STREAM     LISTENING     1155106923 /var/run/lldpd.socket
+unix  2      [ ACC ]     STREAM     LISTENING     35950    /run/lvm/lvmetad.socket
+unix  2      [ ACC ]     SEQPACKET  LISTENING     35965    /run/udev/control
+unix  2      [ ]         DGRAM                    1335582057 /var/spool/postfix/dev/log
+unix  2      [ ]         DGRAM                    36000    /run/systemd/journal/syslog
+unix  2      [ ACC ]     STREAM     LISTENING     860545710 /run/acpid.socket
+unix  2      [ ]         DGRAM                    112565   /run/user/1000/systemd/notify
+unix  2      [ ACC ]     STREAM     LISTENING     1485544119 /run/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     330620855 /run/lvm/lvmpolld.socket
+unix  2      [ ACC ]     STREAM     LISTENING     112567   /run/user/1000/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     36586    /var/run/openvswitch/db.sock
+unix  2      [ ACC ]     STREAM     LISTENING     36588    /var/run/openvswitch/ovsdb-server.9864.ctl
+unix  3      [ ]         STREAM     CONNECTE      42442
+unix  3      [ ]         STREAM     CONNECTE      1155106930
+unix  2      [ ]         DGRAM                    1575252582
+unix  3      [ ]         STREAM     CONNECTE      48665
+unix  3      [ ]         STREAM     CONNECTE      1155106932
+unix  3      [ ]         STREAM     CONNECTE      48669
+unix  2      [ ]         DGRAM                    14209
+unix  2      [ ]         DGRAM                    1623500954
+unix  3      [ ]         STREAM     CONNECTE      48666
+unix  3      [ ]         STREAM     CONNECTE      1758604485
+unix  3      [ ]         STREAM     CONNECTE      1702946131
+unix  3      [ ]         STREAM     CONNECTE      774179702
+unix  3      [ ]         STREAM     CONNECTE      48673
+unix  3      [ ]         STREAM     CONNECTE      48707
+unix  3      [ ]         STREAM     CONNECTE      48674
+unix  3      [ ]         STREAM     CONNECTE      44145    /run/systemd/journal/stdout
+unix  3      [ ]         DGRAM                    1485541041
+unix  2      [ ]         DGRAM                    1962
+unix  3      [ ]         STREAM     CONNECTE      1740559940
+unix  3      [ ]         STREAM     CONNECTE      48691
+unix  3      [ ]         STREAM     CONNECTE      48698
+unix  2      [ ]         DGRAM                    1758307371
+unix  3      [ ]         STREAM     CONNECTE      1485536684 /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      839258238 /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    1538908156
+unix  3      [ ]         STREAM     CONNECTE      48697
+unix  3      [ ]         STREAM     CONNECTE      36536
+unix  3      [ ]         STREAM     CONNECTE      74172    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      48692
+unix  3      [ ]         STREAM     CONNECTE      48695
+unix  3      [ ]         STREAM     CONNECTE      29513    /var/run/quagga/zebra.vty
+unix  3      [ ]         STREAM     CONNECTE      48681
+unix  3      [ ]         STREAM     CONNECTE      48686
+unix  2      [ ]         DGRAM                    28617
+unix  3      [ ]         STREAM     CONNECTE      48696
+unix  3      [ ]         STREAM     CONNECTE      48678
+unix  3      [ ]         STREAM     CONNECTE      11145
+unix  3      [ ]         STREAM     CONNECTE      1425970088 /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      48682
+unix  3      [ ]         STREAM     CONNECTE      1757982325
+unix  3      [ ]         STREAM     CONNECTE      47409
+unix  3      [ ]         STREAM     CONNECTE      1758307366
+unix  3      [ ]         STREAM     CONNECTE      1713856443
+unix  3      [ ]         STREAM     CONNECTE      1121973205
+unix  3      [ ]         STREAM     CONNECTE      817583091
+unix  3      [ ]         STREAM     CONNECTE      839256842
+unix  3      [ ]         STREAM     CONNECTE      1758283119
+unix  3      [ ]         STREAM     CONNECTE      48702
+unix  3      [ ]         STREAM     CONNECTE      14134
+unix  3      [ ]         STREAM     CONNECTE      1701284864
+unix  3      [ ]         STREAM     CONNECTE      48656
+unix  3      [ ]         STREAM     CONNECTE      22392
+unix  3      [ ]         STREAM     CONNECTE      1425998278
+unix  3      [ ]         STREAM     CONNECTE      308193988 /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      1632844414
+unix  3      [ ]         STREAM     CONNECTE      48670
+unix  3      [ ]         STREAM     CONNECTE      11135
+unix  2      [ ]         DGRAM                    1632172629
+unix  3      [ ]         STREAM     CONNECTE      1757781328
+unix  3      [ ]         STREAM     CONNECTE      1737908411
+unix  3      [ ]         STREAM     CONNECTE      1701284854
+unix  3      [ ]         STREAM     CONNECTE      1632844424
+unix  2      [ ]         DGRAM                    1755896071
+unix  3      [ ]         STREAM     CONNECTE      1485554042 /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      408380827
+unix  3      [ ]         STREAM     CONNECTE      1755894721
+unix  2      [ ]         DGRAM                    1525603780
+unix  3      [ ]         STREAM     CONNECTE      48701
+unix  3      [ ]         STREAM     CONNECTE      48664
+unix  3      [ ]         STREAM     CONNECTE      1485553599 /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    762076752
+unix  3      [ ]         STREAM     CONNECTE      48677
+unix  3      [ ]         STREAM     CONNECTE      1740559939
+unix  3      [ ]         STREAM     CONNECTE      48684
+unix  3      [ ]         STREAM     CONNECTE      1632844425
+unix  3      [ ]         STREAM     CONNECTE      48661
+unix  3      [ ]         STREAM     CONNECTE      48649
+unix  2      [ ]         DGRAM                    45152
+unix  3      [ ]         STREAM     CONNECTE      48663
+unix  3      [ ]         STREAM     CONNECTE      14286
+unix  2      [ ]         DGRAM                    95544896
+unix  3      [ ]         STREAM     CONNECTE      24226
+unix  2      [ ]         DGRAM                    42530
+unix  3      [ ]         STREAM     CONNECTE      35614
+unix  2      [ ]         DGRAM                    1672388522
+unix  2      [ ]         DGRAM                    1758278261
+unix  3      [ ]         STREAM     CONNECTE      1155106141 /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      1713856453
+unix  3      [ ]         STREAM     CONNECTE      48654
+unix  2      [ ]         DGRAM                    35611
+unix  3      [ ]         STREAM     CONNECTE      30277    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      48650
+unix  3      [ ]         STREAM     CONNECTE      29512    /var/run/quagga/ospfd.vty
+unix  3      [ ]         STREAM     CONNECTE      1155106931
+unix  3      [ ]         STREAM     CONNECTE      48655
+unix  3      [ ]         STREAM     CONNECTE      1736366046 /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    1155106918
+unix  2      [ ]         DGRAM                    42461
+unix  3      [ ]         STREAM     CONNECTE      1155106933
+unix  3      [ ]         STREAM     CONNECTE      48668
+unix  3      [ ]         STREAM     CONNECTE      21134
+unix  3      [ ]         STREAM     CONNECTE      1758604484
+unix  3      [ ]         STREAM     CONNECTE      42443
+unix  3      [ ]         STREAM     CONNECTE      1737149500
+unix  3      [ ]         STREAM     CONNECTE      48667
+unix  2      [ ]         DGRAM                    1758593794
+unix  2      [ ]         DGRAM                    1693936087
+unix  3      [ ]         STREAM     CONNECTE      48659
+unix  3      [ ]         STREAM     CONNECTE      48705
+unix  3      [ ]         STREAM     CONNECTE      44570    /var/run/openvswitch/db.sock
+unix  3      [ ]         STREAM     CONNECTE      1737149499
+unix  3      [ ]         STREAM     CONNECTE      789646218 /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      1540485644 /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      48675
+unix  3      [ ]         STREAM     CONNECTE      42445    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      1723050438 /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    1757982320
+unix  3      [ ]         STREAM     CONNECTE      28609
+unix  2      [ ]         DGRAM                    1525604152
+unix  3      [ ]         STREAM     CONNECTE      48706
+unix  3      [ ]         STREAM     CONNECTE      48690
+unix  3      [ ]         STREAM     CONNECTE      48699
+unix  3      [ ]         STREAM     CONNECTE      48693
+unix  3      [ ]         STREAM     CONNECTE      48653
+unix  2      [ ]         DGRAM                    1740559935
+unix  3      [ ]         STREAM     CONNECTE      48652
+unix  3      [ ]         STREAM     CONNECTE      1349363567
+unix  3      [ ]         STREAM     CONNECTE      1485562892
+unix  3      [ ]         STREAM     CONNECTE      1485554041 /var/run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    1757781324
+unix  2      [ ]         DGRAM                    14291
+unix  3      [ ]         STREAM     CONNECTE      16954    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      48689
+unix  2      [ ]         DGRAM                    1661903870
+unix  3      [ ]         STREAM     CONNECTE      48694
+unix  2      [ ]         DGRAM                    47369
+unix  3      [ ]         STREAM     CONNECTE      48680
+unix  3      [ ]         STREAM     CONNECTE      48658
+unix  3      [ ]         STREAM     CONNECTE      48687
+unix  3      [ ]         STREAM     CONNECTE      48683
+unix  3      [ ]         STREAM     CONNECTE      48688
+unix  3      [ ]         STREAM     CONNECTE      48679
+unix  2      [ ]         DGRAM                    712147306
+unix  3      [ ]         STREAM     CONNECTE      1755495219
+unix  3      [ ]         STREAM     CONNECTE      1713856452
+unix  3      [ ]         STREAM     CONNECTE      48704
+unix  2      [ ]         DGRAM                    47349
+unix  3      [ ]         STREAM     CONNECTE      1693936082
+unix  3      [ ]         STREAM     CONNECTE      1155106121 /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      1757982324
+unix  3      [ ]         STREAM     CONNECTE      1755495220
+unix  3      [ ]         STREAM     CONNECTE      839248364 /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      1758283118
+unix  3      [ ]         STREAM     CONNECTE      48703
+unix  3      [ ]         STREAM     CONNECTE      18139    /var/run/quagga/zserv.api
+unix  3      [ ]         STREAM     CONNECTE      1713856442
+unix  3      [ ]         STREAM     CONNECTE      1755894720
+unix  2      [ ]         DGRAM                    30340
+unix  3      [ ]         STREAM     CONNECTE      1737149441
+unix  3      [ ]         STREAM     CONNECTE      411652902 /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      334456353
+unix  2      [ ]         DGRAM                    1425994705
+unix  3      [ ]         STREAM     CONNECTE      1632844415
+unix  2      [ ]         DGRAM                    21172
+unix  3      [ ]         STREAM     CONNECTE      1737908410
+unix  3      [ ]         DGRAM                    1485541040
+unix  3      [ ]         STREAM     CONNECTE      48671
+unix  3      [ ]         STREAM     CONNECTE      48672
+unix  3      [ ]         STREAM     CONNECTE      44127    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      1701284853
+unix  3      [ ]         STREAM     CONNECTE      1425963650
+unix  3      [ ]         STREAM     CONNECTE      48660
+unix  2      [ ]         DGRAM                    36572
+unix  3      [ ]         STREAM     CONNECTE      1485550743
+unix  3      [ ]         STREAM     CONNECTE      1758032768
+unix  3      [ ]         STREAM     CONNECTE      48648
+unix  2      [ ]         DGRAM                    1720816443
+unix  3      [ ]         STREAM     CONNECTE      48662
+unix  3      [ ]         STREAM     CONNECTE      1758032769
+unix  3      [ ]         STREAM     CONNECTE      48676
+unix  2      [ ]         DGRAM                    1485550737
+unix  2      [ ]         DGRAM                    1084361065
+unix  3      [ ]         STREAM     CONNECTE      48700
+unix  2      [ ]         DGRAM                    444352911
+unix  3      [ ]         STREAM     CONNECTE      48685
+unix  3      [ ]         STREAM     CONNECTE      48657
+unix  2      [ ]         DGRAM                    42557
+unix  3      [ ]         STREAM     CONNECTE      1758303341 /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      1525604147
+unix  3      [ ]         STREAM     CONNECTE      1757781329
+unix  3      [ ]         STREAM     CONNECTE      1153275205
+unix  2      [ ]         DGRAM                    16206
+unix  2      [ ]         DGRAM                    1976
+unix  3      [ ]         STREAM     CONNECTE      48651
+unix  3      [ ]         STREAM     CONNECTE      35613

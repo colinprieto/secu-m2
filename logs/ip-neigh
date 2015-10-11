@@ -1,0 +1,357 @@
+stri-michael@Cooper:~$ ip neigh
+172.19.116.3 dev bond0.116  FAILED
+172.16.48.13 dev bond0.211 lladdr 34:17:eb:c5:dd:5b STALE
+172.16.80.213 dev bond0.213  FAILED
+172.16.96.1 dev bond0.214 lladdr b8:ca:3a:70:83:d6 STALE
+10.7.10.10 dev bond0.106 lladdr 34:17:eb:c5:b9:1d STALE
+172.16.64.79 dev bond0.212  FAILED
+192.0.2.15 dev vlan2  FAILED
+172.16.0.3 dev bond0.1 lladdr e6:12:6e:a6:8d:ad STALE
+172.16.80.15 dev bond0.213 lladdr 34:17:eb:c5:d8:9e STALE
+172.16.96.44 dev bond0.214 lladdr ba:ad:00:ca:fe:44 STALE
+172.16.80.86 dev bond0.213  FAILED
+192.0.2.18 dev vlan2  FAILED
+172.16.48.87 dev bond0.211 lladdr 88:ae:1d:ee:b7:06 STALE
+192.168.124.43 dev bond0.124  FAILED
+172.16.96.95 dev bond0.214  FAILED
+172.16.64.92 dev bond0.212  FAILED
+172.16.48.11 dev bond0.211 lladdr b8:ca:3a:9f:37:5f STALE
+172.16.64.73 dev bond0.212 lladdr 64:31:50:18:80:20 STALE
+192.168.125.51 dev bond0.125  FAILED
+172.16.0.1 dev bond0.1 lladdr 06:a7:a8:c7:94:ca STALE
+10.0.119.80 dev bond0.119 lladdr 34:17:eb:c5:d2:65 STALE
+172.16.96.46 dev bond0.214 lladdr ba:ad:00:ca:fe:46 STALE
+172.16.80.80 dev bond0.213  FAILED
+130.120.84.96 dev bond0 lladdr b8:ca:3a:70:83:b8 STALE
+172.20.136.82 dev bond0.136  FAILED
+172.16.48.85 dev bond0.211 lladdr ec:b1:d7:94:90:26 STALE
+192.168.124.41 dev bond0.124  FAILED
+172.16.64.1 dev bond0.212 lladdr b8:ca:3a:70:83:b8 STALE
+10.0.119.67 dev bond0.119 lladdr 34:17:eb:c5:d2:65 STALE
+172.16.96.89 dev bond0.214  FAILED
+172.16.80.67 dev bond0.213  FAILED
+172.16.64.94 dev bond0.212  FAILED
+172.16.96.96 dev bond0.214  FAILED
+172.16.0.18 dev bond0.1 lladdr c0:7b:bc:e0:0f:40 STALE
+198.51.100.2 dev bond0.5 lladdr ba:ad:ca:fe:64:02 STALE
+172.16.64.75 dev bond0.212  FAILED
+192.0.2.3 dev vlan2  FAILED
+172.16.0.7 dev bond0.1 lladdr 44:e4:d9:78:85:c0 STALE
+172.16.80.11 dev bond0.213 lladdr 34:17:eb:c5:d9:d8 STALE
+172.16.96.40 dev bond0.214 lladdr ba:ad:00:ca:fe:40 STALE
+172.16.16.2 dev bond0.4 lladdr b8:ca:3a:70:83:b8 REACHABLE
+10.6.8.2 dev bond0.105 lladdr 34:17:eb:c5:d6:e3 STALE
+172.16.96.91 dev bond0.214  FAILED
+172.16.64.88 dev bond0.212 lladdr 08:00:27:38:e4:76 STALE
+172.16.96.98 dev bond0.214 lladdr ba:ad:00:ca:fe:00 STALE
+172.16.0.16 dev bond0.1 lladdr 34:db:fd:f4:83:40 REACHABLE
+172.19.114.130 dev bond0.114 lladdr 34:17:eb:c5:fd:60 STALE
+172.16.96.42 dev bond0.214 lladdr ba:ad:00:ca:fe:42 STALE
+172.16.80.76 dev bond0.213 lladdr ec:b1:d7:94:e0:0e STALE
+172.19.116.20 dev bond0.116  FAILED
+192.168.109.2 dev bond0.109 lladdr 34:17:eb:c5:d8:9e STALE
+172.19.115.195 dev bond0.115 lladdr 34:17:eb:c5:d9:4d STALE
+192.168.124.45 dev bond0.124  FAILED
+10.4.4.20 dev bond0.103 lladdr 34:17:eb:c5:d9:d8 STALE
+172.16.96.85 dev bond0.214  FAILED
+172.16.64.90 dev bond0.212 lladdr 08:00:27:15:ef:6b STALE
+10.0.117.3 dev bond0.117 lladdr 34:17:eb:c5:d8:9e STALE
+172.16.80.20 dev bond0.213 lladdr 34:17:eb:c5:d2:09 STALE
+10.7.10.2 dev bond0.106 lladdr 34:17:eb:c5:d2:09 STALE
+172.16.16.90 dev bond0.4  FAILED
+198.51.100.6 dev bond0.5 lladdr ba:ad:00:ca:fe:00 STALE
+10.3.3.1 dev bond0.102  FAILED
+172.16.96.29 dev bond0.214 lladdr ba:ad:00:ca:fe:29 STALE
+172.16.96.36 dev bond0.214 lladdr ba:ad:00:ca:fe:36 STALE
+172.16.80.78 dev bond0.213 lladdr 00:22:15:fc:9b:ea STALE
+172.19.116.10 dev bond0.116 lladdr 34:17:eb:c5:d9:d8 STALE
+172.16.64.96 dev bond0.212 lladdr d4:85:64:b8:3f:d5 STALE
+192.168.124.35 dev bond0.124  FAILED
+172.19.113.69 dev bond0.113 lladdr 34:17:eb:c5:d8:9e STALE
+172.16.96.87 dev bond0.214  FAILED
+172.16.64.68 dev bond0.212  FAILED
+172.16.0.20 dev bond0.1 lladdr f4:ac:c1:a9:22:40 STALE
+172.16.48.74 dev bond0.211 lladdr 1c:87:2c:e1:cd:5e STALE
+172.16.80.22 dev bond0.213 lladdr 34:17:eb:c5:d9:4d STALE
+172.16.80.93 dev bond0.213 lladdr 00:24:54:e8:f7:03 STALE
+172.16.16.84 dev bond0.4  FAILED
+172.16.48.23 dev bond0.211 lladdr b8:ca:3a:9e:8e:29 STALE
+172.24.132.18 dev bond0.132  FAILED
+172.16.96.31 dev bond0.214 lladdr ba:ad:00:ca:fe:31 STALE
+172.16.96.38 dev bond0.214 lladdr ba:ad:00:ca:fe:38 STALE
+172.16.64.85 dev bond0.212 lladdr 08:00:27:d0:f3:26 STALE
+172.19.113.67 dev bond0.113 lladdr 34:17:eb:c5:fd:60 STALE
+172.16.96.81 dev bond0.214  FAILED
+172.16.64.70 dev bond0.212  FAILED
+172.16.48.72 dev bond0.211 lladdr b8:ca:3a:9e:85:e1 STALE
+172.16.80.16 dev bond0.213 lladdr 34:17:eb:c5:d6:e3 STALE
+192.168.108.131 dev bond0.108 lladdr 34:17:eb:c5:d2:09 STALE
+172.16.96.53 dev bond0.214 lladdr ba:ad:00:ca:fe:53 STALE
+172.16.80.95 dev bond0.213  FAILED
+10.4.4.3 dev bond0.103  FAILED
+172.16.16.86 dev bond0.4  FAILED
+172.16.48.21 dev bond0.211 lladdr b8:ca:3a:9e:8d:9c STALE
+172.16.96.25 dev bond0.214 lladdr ba:ad:00:ca:fe:25 STALE
+172.16.96.32 dev bond0.214 lladdr ba:ad:00:ca:fe:32 STALE
+172.16.80.74 dev bond0.213 lladdr ec:b1:d7:94:80:06 STALE
+172.16.64.87 dev bond0.212  FAILED
+172.16.48.91 dev bond0.211 lladdr b8:ca:3a:9e:85:56 STALE
+192.168.124.39 dev bond0.124  FAILED
+10.5.6.3 dev bond0.104 lladdr 34:17:eb:c5:d2:09 STALE
+172.16.96.83 dev bond0.214  FAILED
+172.20.130.27 dev bond0.130 lladdr 34:17:eb:c5:d2:09 STALE
+172.16.64.64 dev bond0.212 lladdr 08:00:27:74:43:12 STALE
+198.51.100.42 dev bond0.6 lladdr ba:ad:ca:fe:64:2a STALE
+130.120.86.45 dev bond0 lladdr 6c:3b:e5:09:05:91 STALE
+172.16.80.18 dev bond0.213 lladdr 34:17:eb:c5:dd:11 STALE
+172.20.129.19 dev bond0.129 lladdr 34:17:eb:c5:d2:65 STALE
+172.16.16.9 dev bond0.4 lladdr 00:11:32:20:00:c9 STALE
+192.168.123.18 dev bond0.123 lladdr 34:17:eb:c5:fd:60 STALE
+172.16.96.55 dev bond0.214 lladdr ba:ad:00:ca:fe:55 STALE
+172.16.16.80 dev bond0.4 lladdr b8:6b:23:38:32:1e STALE
+172.16.80.96 dev bond0.213 lladdr ec:b1:d7:94:70:e0 STALE
+172.16.48.19 dev bond0.211 lladdr b8:ca:3a:9e:88:57 STALE
+172.24.132.22 dev bond0.132 lladdr 34:17:eb:c5:d9:d8 STALE
+172.16.96.27 dev bond0.214 lladdr ba:ad:00:ca:fe:27 STALE
+172.16.96.34 dev bond0.214 lladdr ba:ad:00:ca:fe:34 STALE
+172.16.64.81 dev bond0.212  FAILED
+172.16.48.14 dev bond0.211 lladdr b8:ca:3a:9e:8e:0f STALE
+172.16.48.89 dev bond0.211 lladdr b8:70:f4:bd:be:21 STALE
+192.168.124.37 dev bond0.124  FAILED
+192.168.111.3 dev bond0.111 lladdr 34:17:eb:c5:d7:b5 STALE
+172.16.64.66 dev bond0.212 lladdr 64:31:50:18:80:0e STALE
+192.0.2.12 dev vlan2 lladdr ba:ad:00:ca:fe:00 STALE
+172.16.0.14 dev bond0.1 lladdr 00:25:83:6d:21:c0 STALE
+172.16.80.12 dev bond0.213 lladdr 34:17:eb:c5:b8:1a STALE
+192.168.110.130 dev bond0.110 lladdr 34:17:eb:c5:de:3c STALE
+172.16.96.49 dev bond0.214 lladdr ba:ad:00:ca:fe:49 STALE
+172.16.80.91 dev bond0.213  FAILED
+172.16.16.82 dev bond0.4  FAILED
+172.16.48.17 dev bond0.211 lladdr b8:ca:3a:9e:85:e1 REACHABLE
+172.19.112.2 dev bond0.112  FAILED
+172.24.132.20 dev bond0.132 lladdr 34:17:eb:c5:b9:1d STALE
+172.16.96.21 dev bond0.214 lladdr ba:ad:00:ca:fe:21 STALE
+10.0.119.70 dev bond0.119 lladdr 34:17:eb:c5:b8:1a STALE
+10.0.121.131 dev bond0.121 lladdr 34:17:eb:c5:d8:9e STALE
+172.16.96.92 dev bond0.214  FAILED
+172.16.80.70 dev bond0.213  FAILED
+172.16.64.83 dev bond0.212 lladdr 38:2c:4a:75:6f:c6 STALE
+172.19.116.2 dev bond0.116 lladdr 34:17:eb:c5:d9:d8 STALE
+172.16.64.76 dev bond0.212 lladdr ec:b1:d7:94:80:db STALE
+192.0.2.14 dev vlan2  FAILED
+172.16.0.12 dev bond0.1 lladdr 00:1b:8f:4a:4c:40 REACHABLE
+172.16.80.14 dev bond0.213 lladdr 34:17:eb:c5:fd:60 STALE
+172.16.96.51 dev bond0.214 lladdr ba:ad:00:ca:fe:51 STALE
+172.16.80.85 dev bond0.213 lladdr ec:b1:d7:94:90:26 STALE
+192.168.109.11 dev bond0.109 lladdr 34:17:eb:c5:d2:65 STALE
+192.0.2.17 dev vlan2  FAILED
+192.168.124.42 dev bond0.124  FAILED
+172.16.96.23 dev bond0.214 lladdr ba:ad:00:ca:fe:23 STALE
+172.16.96.94 dev bond0.214  FAILED
+172.16.64.93 dev bond0.212  FAILED
+172.16.48.10 dev bond0.211 lladdr b8:ca:3a:9e:8c:47 STALE
+172.16.64.78 dev bond0.212 lladdr ba:ad:00:ca:fe:00 STALE
+192.168.125.50 dev bond0.125 lladdr 34:17:eb:c5:d6:e3 STALE
+172.16.0.2 dev bond0.1 lladdr b8:ca:3a:70:83:b8 REACHABLE
+172.16.16.7 dev bond0.4 lladdr 08:00:37:3f:ae:cf STALE
+172.16.96.45 dev bond0.214 lladdr ba:ad:00:ca:fe:45 STALE
+172.16.80.87 dev bond0.213 lladdr bc:ee:7b:28:02:f6 STALE
+172.16.48.84 dev bond0.211 lladdr 60:45:bd:fb:ae:67 STALE
+192.168.124.40 dev bond0.124  FAILED
+10.0.119.66 dev bond0.119 lladdr 34:17:eb:c5:b8:1a STALE
+172.16.96.88 dev bond0.214  FAILED
+172.16.80.66 dev bond0.213  FAILED
+172.16.64.95 dev bond0.212 lladdr 08:00:27:fb:39:43 STALE
+172.16.0.19 dev bond0.1 lladdr c0:7b:bc:e0:13:40 STALE
+10.4.4.10 dev bond0.103 lladdr 34:17:eb:c5:b9:1d STALE
+172.16.64.72 dev bond0.212  FAILED
+172.16.80.10 dev bond0.213 lladdr 34:17:eb:c5:b9:1d STALE
+172.16.96.47 dev bond0.214 lladdr ba:ad:00:ca:fe:47 STALE
+172.16.80.81 dev bond0.213 lladdr ec:b1:d7:94:c0:1b STALE
+172.20.136.83 dev bond0.136 lladdr 34:17:eb:c5:d7:b5 STALE
+192.168.124.46 dev bond0.124  FAILED
+172.16.96.90 dev bond0.214  FAILED
+172.16.64.89 dev bond0.212 lladdr 08:00:27:37:b8:1e STALE
+172.16.96.97 dev bond0.214  FAILED
+172.16.0.17 dev bond0.1 lladdr 34:db:fd:f4:bb:40 DELAY
+172.16.48.65 dev bond0.211 lladdr 50:b7:c3:84:6a:ab STALE
+172.19.114.131 dev bond0.114 lladdr 34:17:eb:c5:d6:e3 STALE
+172.16.64.74 dev bond0.212 lladdr ba:ad:00:ca:fe:05 STALE
+172.16.0.6 dev bond0.1 lladdr 3c:df:1e:1d:71:c0 REACHABLE
+172.16.96.41 dev bond0.214 lladdr ba:ad:00:ca:fe:41 STALE
+172.16.48.80 dev bond0.211 lladdr 00:8c:fa:9f:ef:4d STALE
+192.168.124.44 dev bond0.124  FAILED
+172.16.96.84 dev bond0.214  FAILED
+172.16.64.91 dev bond0.212  FAILED
+172.16.96.99 dev bond0.214  FAILED
+10.7.10.3 dev bond0.106 lladdr 34:17:eb:c5:d9:d8 STALE
+172.16.16.89 dev bond0.4 lladdr 00:1d:72:8c:1d:4b STALE
+198.51.100.1 dev bond0.5 lladdr da:85:b0:d8:df:bc STALE
+192.168.125.52 dev bond0.125 lladdr 34:17:eb:c5:d2:09 STALE
+172.16.96.28 dev bond0.214 lladdr ba:ad:00:ca:fe:28 STALE
+172.16.80.6 dev bond0.213 lladdr b8:6b:23:38:32:1e STALE
+172.16.96.43 dev bond0.214 lladdr ba:ad:00:ca:fe:43 STALE
+172.16.80.77 dev bond0.213  FAILED
+172.19.115.194 dev bond0.115 lladdr 34:17:eb:c5:dd:11 STALE
+192.168.109.3 dev bond0.109 lladdr 34:17:eb:c5:d2:65 STALE
+172.16.48.94 dev bond0.211  FAILED
+192.168.124.34 dev bond0.124  FAILED
+172.16.96.86 dev bond0.214  FAILED
+172.16.64.69 dev bond0.212  FAILED
+10.0.117.2 dev bond0.117 lladdr 34:17:eb:c5:d7:b5 STALE
+172.16.80.21 dev bond0.213 lladdr 34:17:eb:c5:d7:b5 STALE
+172.16.80.92 dev bond0.213 lladdr ec:b1:d7:94:90:26 STALE
+172.16.16.91 dev bond0.4 lladdr 5c:f9:dd:e7:39:80 STALE
+172.16.48.22 dev bond0.211 lladdr b8:ca:3a:9f:2b:d7 STALE
+172.24.132.19 dev bond0.132 lladdr 34:17:eb:c5:d9:d8 STALE
+172.16.96.30 dev bond0.214 lladdr ba:ad:00:ca:fe:30 STALE
+172.16.96.37 dev bond0.214 lladdr ba:ad:00:ca:fe:37 STALE
+172.16.80.79 dev bond0.213  FAILED
+172.16.48.92 dev bond0.211 lladdr 78:84:3c:37:35:e4 STALE
+172.16.96.80 dev bond0.214  FAILED
+172.16.64.71 dev bond0.212  FAILED
+172.16.96.52 dev bond0.214 lladdr ba:ad:00:ca:fe:52 STALE
+192.168.108.130 dev bond0.108 lladdr 34:17:eb:c5:b8:1a STALE
+10.4.4.2 dev bond0.103 lladdr 34:17:eb:c5:d9:d8 STALE
+172.20.127.2 dev bond0.127 lladdr 34:17:eb:c5:b9:1d STALE
+172.16.16.85 dev bond0.4  FAILED
+172.16.48.20 dev bond0.211  FAILED
+172.16.96.24 dev bond0.214 lladdr ba:ad:00:ca:fe:24 STALE
+172.16.80.2 dev bond0.213 lladdr b8:ca:3a:70:83:b8 STALE
+172.16.96.39 dev bond0.214 lladdr ba:ad:00:ca:fe:39 STALE
+172.16.64.84 dev bond0.212  FAILED
+172.16.16.64 dev bond0.4  FAILED
+192.168.124.38 dev bond0.124  FAILED
+172.16.96.82 dev bond0.214  FAILED
+172.20.130.26 dev bond0.130  FAILED
+172.16.64.65 dev bond0.212 lladdr d4:85:64:bd:88:fb STALE
+172.16.48.73 dev bond0.211 lladdr 14:da:e9:41:73:74 REACHABLE
+172.16.80.17 dev bond0.213 lladdr 34:17:eb:c5:de:3c STALE
+172.20.129.18 dev bond0.129 lladdr 34:17:eb:c5:b8:1a STALE
+172.16.96.54 dev bond0.214 lladdr ba:ad:00:ca:fe:54 STALE
+172.16.80.88 dev bond0.213  FAILED
+172.16.16.87 dev bond0.4  FAILED
+172.16.48.18 dev bond0.211 lladdr b8:ca:3a:9f:2b:5d STALE
+172.16.96.26 dev bond0.214 lladdr ba:ad:00:ca:fe:26 STALE
+172.16.96.33 dev bond0.214 lladdr ba:ad:00:ca:fe:33 STALE
+172.16.64.86 dev bond0.212 lladdr 00:22:19:e8:89:d6 STALE
+172.16.16.66 dev bond0.4  FAILED
+172.16.48.1 dev bond0.211 lladdr b8:ca:3a:70:83:b8 STALE
+192.168.124.36 dev bond0.124  FAILED
+10.5.6.2 dev bond0.104 lladdr 34:17:eb:c5:d2:65 STALE
+172.16.96.5 dev bond0.214 lladdr a6:38:92:82:0d:b2 STALE
+192.168.111.2 dev bond0.111 lladdr 34:17:eb:c5:d9:4d STALE
+172.16.64.67 dev bond0.212 lladdr bc:ee:7b:28:02:f6 STALE
+172.16.0.15 dev bond0.1 lladdr 3c:df:1e:82:9c:40 STALE
+172.16.80.19 dev bond0.213 lladdr 34:17:eb:c5:da:86 STALE
+192.168.123.19 dev bond0.123 lladdr 34:17:eb:c5:d8:9e STALE
+172.16.96.48 dev bond0.214 lladdr ba:ad:00:ca:fe:48 STALE
+192.168.110.131 dev bond0.110  FAILED
+172.16.80.90 dev bond0.213  FAILED
+172.16.16.81 dev bond0.4 lladdr 68:5b:35:7b:8f:9f STALE
+172.16.48.16 dev bond0.211 lladdr b8:ca:3a:9f:2b:3f STALE
+130.120.84.1 dev bond0 lladdr 00:22:90:3e:da:80 REACHABLE
+172.16.96.20 dev bond0.214 lladdr ba:ad:00:ca:fe:20 STALE
+10.0.121.130 dev bond0.121  FAILED
+172.16.96.35 dev bond0.214 lladdr ba:ad:00:ca:fe:35 STALE
+172.16.80.69 dev bond0.213  FAILED
+172.16.64.80 dev bond0.212 lladdr ba:ad:00:ca:fe:06 STALE
+172.16.48.15 dev bond0.211 lladdr b8:ca:3a:9e:8e:61 STALE
+10.7.10.20 dev bond0.106 lladdr 34:17:eb:c5:d9:d8 STALE
+172.16.64.77 dev bond0.212  FAILED
+192.0.2.13 dev vlan2 lladdr ba:ad:00:ca:fe:01 STALE
+172.16.0.13 dev bond0.1 lladdr 00:25:83:6d:fc:40 REACHABLE
+172.16.80.13 dev bond0.213 lladdr 34:17:eb:c5:d2:65 STALE
+172.16.96.50 dev bond0.214  FAILED
+172.16.80.84 dev bond0.213  FAILED
+172.16.16.83 dev bond0.4 lladdr 3c:07:54:33:a0:db STALE
+192.168.109.10 dev bond0.109 lladdr 34:17:eb:c5:b8:1a STALE
+192.0.2.16 dev vlan2 lladdr ba:ad:00:ca:fe:00 STALE
+172.19.112.3 dev bond0.112 lladdr 34:17:eb:c5:d2:09 STALE
+172.16.96.22 dev bond0.214  FAILED
+172.16.96.93 dev bond0.214  FAILED
+172.16.80.71 dev bond0.213  FAILED
+172.16.64.82 dev bond0.212 lladdr 64:31:50:18:80:c2 STALE
+fe80::baca:3aff:fe67:9e6c dev bond0.108 lladdr b8:ca:3a:67:9e:6c router STALE
+fe80::baca:3aff:fe67:9e84 dev bond0.132 lladdr b8:ca:3a:67:9e:84 router STALE
+fe80::b8ad:ff:feca:fe01 dev vlan2 lladdr ba:ad:00:ca:fe:01 STALE
+fe80::baca:3aff:fe67:9e74 dev bond0.116 lladdr b8:ca:3a:67:9e:74 router STALE
+2a01:240:feb2:1::5 dev bond0.1 lladdr 0c:f5:a4:da:64:40 STALE
+fe80::baca:3aff:fe67:9e6b dev bond0.107 lladdr b8:ca:3a:67:9e:6b router STALE
+fe80::b8ad:caff:fefe:642a dev bond0.6 lladdr ba:ad:ca:fe:64:2a router STALE
+fe80::baca:3aff:fe67:9e7b dev bond0.123 lladdr b8:ca:3a:67:9e:7b router STALE
+fe80::b8ad:ff:feca:fe00 dev vlan2 lladdr ba:ad:00:ca:fe:00 STALE
+fe80::baca:3aff:fe67:9e67 dev bond0.103 lladdr b8:ca:3a:67:9e:67 router STALE
+fe80::baca:3aff:fe67:9e85 dev bond0.133 lladdr b8:ca:3a:67:9e:85 router STALE
+fe80::baca:3aff:fe70:83b8 dev bond0.1 lladdr b8:ca:3a:70:83:b8 router STALE
+fe80::baca:3aff:fe67:9e7f dev bond0.127 lladdr b8:ca:3a:67:9e:7f router STALE
+fe80::baca:3aff:fe67:9e66 dev bond0.102 lladdr b8:ca:3a:67:9e:66 router STALE
+fe80::baca:3aff:fe67:9e8d dev bond0.141 lladdr b8:ca:3a:67:9e:8d router STALE
+fe80::b8ad:ff:feca:fe06 dev bond0.212 lladdr ba:ad:00:ca:fe:06 STALE
+fe80::baca:3aff:fe67:9e8e dev bond0.142 lladdr b8:ca:3a:67:9e:8e router STALE
+2a01:240:feb2:1::2 dev bond0.1 lladdr b8:ca:3a:70:83:b8 router STALE
+fe80::baca:3aff:fe67:9e7a dev bond0.122 lladdr b8:ca:3a:67:9e:7a router STALE
+fe80::baca:3aff:fe67:9e71 dev bond0.113 lladdr b8:ca:3a:67:9e:71 router STALE
+fe80::baca:3aff:fe67:9e80 dev bond0.128 lladdr b8:ca:3a:67:9e:80 router STALE
+fe80::baca:3aff:fe67:9e70 dev bond0.112 lladdr b8:ca:3a:67:9e:70 router STALE
+fe80::baca:3aff:fe67:9e75 dev bond0.117 lladdr b8:ca:3a:67:9e:75 router STALE
+fe80::baca:3aff:fe67:9e65 dev bond0.101 lladdr b8:ca:3a:67:9e:65 router STALE
+2a01:240:feb2:2:b8ad:ff:feca:fe01 dev vlan2 lladdr ba:ad:00:ca:fe:01 STALE
+fe80::baca:3aff:fe67:9e6f dev bond0.111 lladdr b8:ca:3a:67:9e:6f router STALE
+fe80::a811:c7ff:feea:f63f dev vlan2 lladdr aa:11:c7:ea:f6:3f router STALE
+fe80::baca:3aff:fe67:9e83 dev bond0.131 lladdr b8:ca:3a:67:9e:83 router STALE
+fe80::ef5:a4ff:feda:6440 dev bond0.1 lladdr 0c:f5:a4:da:64:40 STALE
+fe80::baca:3aff:fe67:9e8f dev bond0.143 lladdr b8:ca:3a:67:9e:8f router STALE
+2a01:240:feb2:2:b8ad:ff:feca:fe00 dev vlan2 lladdr ba:ad:00:ca:fe:00 STALE
+fe80::baca:3aff:fe67:9e76 dev bond0.118 lladdr b8:ca:3a:67:9e:76 router STALE
+fe80::baca:3aff:fe67:9e89 dev bond0.137 lladdr b8:ca:3a:67:9e:89 router STALE
+
+
+
+
+stri-michael@Cooper:~$ ip neigh | grep ba:ad
+172.16.96.44 dev bond0.214 lladdr ba:ad:00:ca:fe:44 STALE
+172.16.96.46 dev bond0.214 lladdr ba:ad:00:ca:fe:46 STALE
+198.51.100.2 dev bond0.5 lladdr ba:ad:ca:fe:64:02 STALE
+172.16.96.40 dev bond0.214 lladdr ba:ad:00:ca:fe:40 STALE
+172.16.96.98 dev bond0.214 lladdr ba:ad:00:ca:fe:00 STALE
+172.16.96.42 dev bond0.214 lladdr ba:ad:00:ca:fe:42 STALE
+198.51.100.6 dev bond0.5 lladdr ba:ad:00:ca:fe:00 STALE
+172.16.96.29 dev bond0.214 lladdr ba:ad:00:ca:fe:29 STALE
+172.16.96.36 dev bond0.214 lladdr ba:ad:00:ca:fe:36 STALE
+172.16.96.31 dev bond0.214 lladdr ba:ad:00:ca:fe:31 STALE
+172.16.96.38 dev bond0.214 lladdr ba:ad:00:ca:fe:38 STALE
+172.16.96.53 dev bond0.214 lladdr ba:ad:00:ca:fe:53 STALE
+172.16.96.25 dev bond0.214 lladdr ba:ad:00:ca:fe:25 STALE
+172.16.96.32 dev bond0.214 lladdr ba:ad:00:ca:fe:32 STALE
+198.51.100.42 dev bond0.6 lladdr ba:ad:ca:fe:64:2a STALE
+172.16.96.55 dev bond0.214 lladdr ba:ad:00:ca:fe:55 STALE
+172.16.96.27 dev bond0.214 lladdr ba:ad:00:ca:fe:27 STALE
+172.16.96.34 dev bond0.214 lladdr ba:ad:00:ca:fe:34 STALE
+192.0.2.12 dev vlan2 lladdr ba:ad:00:ca:fe:00 STALE
+172.16.96.49 dev bond0.214 lladdr ba:ad:00:ca:fe:49 STALE
+172.16.96.21 dev bond0.214 lladdr ba:ad:00:ca:fe:21 STALE
+172.16.96.51 dev bond0.214 lladdr ba:ad:00:ca:fe:51 STALE
+172.16.96.23 dev bond0.214 lladdr ba:ad:00:ca:fe:23 STALE
+172.16.64.78 dev bond0.212 lladdr ba:ad:00:ca:fe:00 STALE
+172.16.96.45 dev bond0.214 lladdr ba:ad:00:ca:fe:45 STALE
+172.16.96.47 dev bond0.214 lladdr ba:ad:00:ca:fe:47 STALE
+172.16.64.74 dev bond0.212 lladdr ba:ad:00:ca:fe:05 STALE
+172.16.96.41 dev bond0.214 lladdr ba:ad:00:ca:fe:41 STALE
+172.16.96.28 dev bond0.214 lladdr ba:ad:00:ca:fe:28 STALE
+172.16.96.43 dev bond0.214 lladdr ba:ad:00:ca:fe:43 STALE
+172.16.96.30 dev bond0.214 lladdr ba:ad:00:ca:fe:30 STALE
+172.16.96.37 dev bond0.214 lladdr ba:ad:00:ca:fe:37 STALE
+172.16.96.52 dev bond0.214 lladdr ba:ad:00:ca:fe:52 STALE
+172.16.96.24 dev bond0.214 lladdr ba:ad:00:ca:fe:24 STALE
+172.16.96.39 dev bond0.214 lladdr ba:ad:00:ca:fe:39 STALE
+172.16.96.54 dev bond0.214 lladdr ba:ad:00:ca:fe:54 STALE
+172.16.96.26 dev bond0.214 lladdr ba:ad:00:ca:fe:26 STALE
+172.16.96.33 dev bond0.214 lladdr ba:ad:00:ca:fe:33 STALE
+172.16.96.48 dev bond0.214 lladdr ba:ad:00:ca:fe:48 STALE
+172.16.96.20 dev bond0.214 lladdr ba:ad:00:ca:fe:20 STALE
+172.16.96.35 dev bond0.214 lladdr ba:ad:00:ca:fe:35 STALE
+172.16.64.80 dev bond0.212 lladdr ba:ad:00:ca:fe:06 STALE
+192.0.2.13 dev vlan2 lladdr ba:ad:00:ca:fe:01 STALE
+192.0.2.16 dev vlan2 lladdr ba:ad:00:ca:fe:00 STALE
+stri-michael@Cooper:~$
